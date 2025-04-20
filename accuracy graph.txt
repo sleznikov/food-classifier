@@ -1,0 +1,54 @@
+Epoch 1/20
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1745105193.068153      89 service.cc:148] XLA service 0x7bd998001ee0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+I0000 00:00:1745105193.068968      89 service.cc:156]   StreamExecutor device (0): Tesla P100-PCIE-16GB, Compute Capability 6.0
+I0000 00:00:1745105194.127085      89 cuda_dnn.cc:529] Loaded cuDNN version 90300
+E0000 00:00:1745105204.958293      89 gpu_timer.cc:82] Delay kernel timed out: measured time has sub-optimal accuracy. There may be a missing warmup execution, please investigate in Nsight Systems.
+E0000 00:00:1745105205.151458      89 gpu_timer.cc:82] Delay kernel timed out: measured time has sub-optimal accuracy. There may be a missing warmup execution, please investigate in Nsight Systems.
+E0000 00:00:1745105205.423541      89 gpu_timer.cc:82] Delay kernel timed out: measured time has sub-optimal accuracy. There may be a missing warmup execution, please investigate in Nsight Systems.
+E0000 00:00:1745105205.634923      89 gpu_timer.cc:82] Delay kernel timed out: measured time has sub-optimal accuracy. There may be a missing warmup execution, please investigate in Nsight Systems.
+I0000 00:00:1745105208.492699      89 device_compiler.h:188] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+315/315 ━━━━━━━━━━━━━━━━━━━━ 1674s 5s/step - accuracy: 0.1767 - loss: 3.6250 - val_accuracy: 0.4562 - val_loss: 2.1742 - learning_rate: 0.0010
+Epoch 2/20
+315/315 ━━━━━━━━━━━━━━━━━━━━ 0s 3s/step - accuracy: 0.3746 - loss: 2.5198
+E0000 00:00:1745107886.448267      89 gpu_timer.cc:82] Delay kernel timed out: measured time has sub-optimal accuracy. There may be a missing warmup execution, please investigate in Nsight Systems.
+E0000 00:00:1745107886.657826      89 gpu_timer.cc:82] Delay kernel timed out: measured time has sub-optimal accuracy. There may be a missing warmup execution, please investigate in Nsight Systems.
+E0000 00:00:1745107886.876191      89 gpu_timer.cc:82] Delay kernel timed out: measured time has sub-optimal accuracy. There may be a missing warmup execution, please investigate in Nsight Systems.
+E0000 00:00:1745107887.069068      89 gpu_timer.cc:82] Delay kernel timed out: measured time has sub-optimal accuracy. There may be a missing warmup execution, please investigate in Nsight Systems.
+315/315 ━━━━━━━━━━━━━━━━━━━━ 1102s 3s/step - accuracy: 0.3746 - loss: 2.5196 - val_accuracy: 0.4998 - val_loss: 1.9845 - learning_rate: 0.0010
+Epoch 3/20
+315/315 ━━━━━━━━━━━━━━━━━━━━ 1050s 3s/step - accuracy: 0.4144 - loss: 2.3364 - val_accuracy: 0.5204 - val_loss: 1.9125 - learning_rate: 0.0010
+Epoch 4/20
+315/315 ━━━━━━━━━━━━━━━━━━━━ 1038s 3s/step - accuracy: 0.4380 - loss: 2.2486 - val_accuracy: 0.5201 - val_loss: 1.8880 - learning_rate: 0.0010
+Epoch 5/20
+315/315 ━━━━━━━━━━━━━━━━━━━━ 1027s 3s/step - accuracy: 0.4458 - loss: 2.2010 - val_accuracy: 0.5304 - val_loss: 1.8679 - learning_rate: 0.0010
+Epoch 6/20
+315/315 ━━━━━━━━━━━━━━━━━━━━ 1006s 3s/step - accuracy: 0.4572 - loss: 2.1520 - val_accuracy: 0.5372 - val_loss: 1.8423 - learning_rate: 0.0010
+Epoch 7/20
+315/315 ━━━━━━━━━━━━━━━━━━━━ 1042s 3s/step - accuracy: 0.4646 - loss: 2.1154 - val_accuracy: 0.5376 - val_loss: 1.8237 - learning_rate: 0.0010
+Epoch 8/20
+315/315 ━━━━━━━━━━━━━━━━━━━━ 1053s 3s/step - accuracy: 0.4724 - loss: 2.0899 - val_accuracy: 0.5474 - val_loss: 1.8038 - learning_rate: 0.0010
+Epoch 9/20
+315/315 ━━━━━━━━━━━━━━━━━━━━ 1026s 3s/step - accuracy: 0.4741 - loss: 2.0740 - val_accuracy: 0.5467 - val_loss: 1.8026 - learning_rate: 0.0010
+Epoch 10/20
+315/315 ━━━━━━━━━━━━━━━━━━━━ 1012s 3s/step - accuracy: 0.4858 - loss: 2.0317 - val_accuracy: 0.5503 - val_loss: 1.7879 - learning_rate: 0.0010
+Epoch 11/20
+315/315 ━━━━━━━━━━━━━━━━━━━━ 1032s 3s/step - accuracy: 0.4850 - loss: 2.0260 - val_accuracy: 0.5479 - val_loss: 1.7952 - learning_rate: 0.0010
+Epoch 12/20
+315/315 ━━━━━━━━━━━━━━━━━━━━ 1044s 3s/step - accuracy: 0.4922 - loss: 1.9950 - val_accuracy: 0.5582 - val_loss: 1.7606 - learning_rate: 0.0010
+Epoch 13/20
+315/315 ━━━━━━━━━━━━━━━━━━━━ 1055s 3s/step - accuracy: 0.4909 - loss: 1.9993 - val_accuracy: 0.5525 - val_loss: 1.7916 - learning_rate: 0.0010
+Epoch 14/20
+315/315 ━━━━━━━━━━━━━━━━━━━━ 1051s 3s/step - accuracy: 0.4910 - loss: 1.9939 - val_accuracy: 0.5558 - val_loss: 1.7661 - learning_rate: 0.0010
+Epoch 15/20
+315/315 ━━━━━━━━━━━━━━━━━━━━ 1054s 3s/step - accuracy: 0.4989 - loss: 1.9627 - val_accuracy: 0.5544 - val_loss: 1.7752 - learning_rate: 0.0010
+Epoch 16/20
+315/315 ━━━━━━━━━━━━━━━━━━━━ 1054s 3s/step - accuracy: 0.5172 - loss: 1.8741 - val_accuracy: 0.5656 - val_loss: 1.7110 - learning_rate: 2.0000e-04
+Epoch 17/20
+315/315 ━━━━━━━━━━━━━━━━━━━━ 1049s 3s/step - accuracy: 0.5334 - loss: 1.8075 - val_accuracy: 0.5732 - val_loss: 1.6971 - learning_rate: 2.0000e-04
+Epoch 18/20
+315/315 ━━━━━━━━━━━━━━━━━━━━ 1042s 3s/step - accuracy: 0.5360 - loss: 1.7974 - val_accuracy: 0.5771 - val_loss: 1.6801 - learning_rate: 2.0000e-04
+Epoch 19/20
+315/315 ━━━━━━━━━━━━━━━━━━━━ 1040s 3s/step - accuracy: 0.5431 - loss: 1.7674 - val_accuracy: 0.5734 - val_loss: 1.6847 - learning_rate: 2.0000e-04
+Epoch 20/20
+315/315 ━━━━━━━━━━━━━━━━━━━━ 1049s 3s/step - accuracy: 0.5420 - loss: 1.7681 - val_accuracy: 0.5769 - val_loss: 1.6646 - learning_rate: 2.0000e-04
