@@ -8,7 +8,7 @@ IMG_SIZE = 224
 
 def load_saved_model():
     # Load the trained model
-    model = tf.keras.models.load_model('models/final_model.h5')  # or your saved model path
+    model = tf.keras.models.load_model('models/final_model.h5')  
     
     # Load class indices
     with open('models/class_indices.json', 'r') as f:
@@ -34,7 +34,7 @@ def predict_image(model, image_path, class_indices):
     
     return predicted_class_name, confidence
 
-# Example usage
+
 if __name__ == "__main__":
     # Load the saved model
     model, class_indices = load_saved_model()
@@ -46,7 +46,6 @@ if __name__ == "__main__":
     print(f"Predicted food: {predicted_class}")
     print(f"Confidence: {confidence:.2f}")
 
-    # If you want to test multiple images
     test_images = ['image1.jpg', 'image2.jpg', 'image3.jpg']
     for img_path in test_images:
         predicted_class, confidence = predict_image(model, img_path, class_indices)
