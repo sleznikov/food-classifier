@@ -13,7 +13,7 @@ try:
     from google.colab import drive
     drive.mount('/content/drive')
     SAVE_DIR = '/content/drive/MyDrive/food41_model'
-    DATASET_PATH = '/content/drive/MyDrive/food41/images'  # Adjust this path for your Drive structure
+    DATASET_PATH = '/content/drive/MyDrive/food41/images'  
 except:
     # For Kaggle or local environment
     SAVE_DIR = './food41_model'
